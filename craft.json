@@ -1,0 +1,217 @@
+{
+  "version": 5,
+  "name": "shop.eveyla.com",
+  "request": "recreate this website all the way to its paid version",
+  "target": {
+    "kind": "website",
+    "url": "https://shop.eveyla.com/"
+  },
+  "stack": "Builder's choice",
+  "status": "ready",
+  "note": "Ready: about 99% like the original, 34 of 34 claims hold.",
+  "created_ms": 1794461640591,
+  "updated_ms": 1794812506308,
+  "checks": [
+    {
+      "round": 1,
+      "check": "web-visual",
+      "passed": true,
+      "similarity": 98.67062716363843,
+      "note": "start page: 98% (1440 px: 99% alike (layout 100%, detail 98%; page height 4005 vs 4005 px); 768 px: 98% alike (layout 99%, detail 96%; page height 3536 vs 3536 px); 390 px: 97% alike (layout 98%, detail 96%; page height 5072 vs 5072 px); text 100% alike; structure 99% alike) | /login: 98% (1440 px: 99% alike (layout 100%, detail 99%; page height 900 vs 900 px); 768 px: 99% alike (layout 100%, detail 98%; page height 900 vs 900 px); 390 px: 96% alike (layout 98%, detail 94%; page height 900 vs 900 px); text 100% alike; structure 100% alike) | /c/grocery: 99% (1440 px: 99% alike (layout 100%, detail 99%; page height 1102 vs 1102 px); 768 px: 99% alike (layout 100%, detail 99%; page height 1102 vs 1102 px); 390 px: 99% alike (layout 100%, detail 98%; page height 1131 vs 1131 px); text 100% alike; structure 100% alike) | /c/homefood: 99% (1440 px: 99% alike (layout 100%, detail 99%; page height 1102 vs 1102 px); 768 px: 99% alike (layout 100%, detail 98%; page height 1102 vs 1102 px); 390 px: 99% alike (layout 99%, detail 98%; page height 1102 vs 1102 px); text 100% alike; structure 97% alike) | /c/rest: 99% (1440 px: 99% alike (layout 100%, detail 99%; page height 1102 vs 1102 px); 768 px: 99% alike (layout 100%, detail 98%; page height 1102 vs 1102 px); 390 px: 99% alike (layout 100%, detail 98%; page height 1102 vs 1102 px); text 100% alike; structure 96% alike) | opened menus and pop-ups at 1440 px: the \"More shops, order by message 148 shops take orders on WhatsApp or Viber\" menu 81% alike, the \"Every shop, A to Z\" menu 80% alike | opened menus and pop-ups at 390 px: the \"More shops, order by message 148 shops take orders on WhatsApp or Viber\" menu 62% alike, the \"Every shop, A to Z\" menu 65% alike",
+      "artifacts": [
+        "checks\\round-0\\screenshot-1440.png",
+        "checks\\round-0\\screenshot-768.png",
+        "checks\\round-0\\screenshot-390.png",
+        "checks\\round-0\\routes/login\\screenshot-1440.png",
+        "checks\\round-0\\routes/login\\screenshot-768.png",
+        "checks\\round-0\\routes/login\\screenshot-390.png",
+        "checks\\round-0\\routes/c-grocery\\screenshot-1440.png",
+        "checks\\round-0\\routes/c-grocery\\screenshot-768.png",
+        "checks\\round-0\\routes/c-grocery\\screenshot-390.png",
+        "checks\\round-0\\routes/c-homefood\\screenshot-1440.png",
+        "checks\\round-0\\routes/c-homefood\\screenshot-768.png",
+        "checks\\round-0\\routes/c-homefood\\screenshot-390.png",
+        "checks\\round-0\\routes/c-rest\\screenshot-1440.png",
+        "checks\\round-0\\routes/c-rest\\screenshot-768.png",
+        "checks\\round-0\\routes/c-rest\\screenshot-390.png"
+      ],
+      "at_ms": 1794812464973,
+      "pages": [
+        {
+          "name": "start page",
+          "dir": "",
+          "similarity": 97.96850288760419
+        },
+        {
+          "name": "/login",
+          "dir": "routes/login",
+          "similarity": 98.12188703581533
+        },
+        {
+          "name": "/c/grocery",
+          "dir": "routes/c-grocery",
+          "similarity": 99.16838025140105
+        },
+        {
+          "name": "/c/homefood",
+          "dir": "routes/c-homefood",
+          "similarity": 98.99988287114404
+        },
+        {
+          "name": "/c/rest",
+          "dir": "routes/c-rest",
+          "similarity": 99.09448277222748
+        }
+      ],
+      "claims": [
+        {
+          "title": "The start page doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "The start page doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "The start page logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "The start page loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "The start page has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/login doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/login logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/login loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/login has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/c/grocery doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/c/grocery doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/c/grocery doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/c/grocery logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/c/grocery loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/c/grocery has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/c/homefood doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/c/homefood doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/c/homefood doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/c/homefood logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/c/homefood loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/c/homefood has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "/c/rest doesn't scroll sideways at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "/c/rest doesn't scroll sideways at 768 px",
+          "passed": true
+        },
+        {
+          "title": "/c/rest doesn't scroll sideways at 390 px",
+          "passed": true
+        },
+        {
+          "title": "/c/rest logs no errors the original doesn't",
+          "passed": true
+        },
+        {
+          "title": "/c/rest loads every file it asks for",
+          "passed": true
+        },
+        {
+          "title": "/c/rest has the original's landmarks",
+          "passed": true
+        },
+        {
+          "title": "the \"More shops, order by message 148 shops take orders on WhatsApp or Viber\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Every shop, A to Z\" menu opens in the build at 1440 px",
+          "passed": true
+        },
+        {
+          "title": "the \"More shops, order by message 148 shops take orders on WhatsApp or Viber\" menu opens in the build at 390 px",
+          "passed": true
+        },
+        {
+          "title": "the \"Every shop, A to Z\" menu opens in the build at 390 px",
+          "passed": true
+        }
+      ]
+    }
+  ],
+  "agent_session": null,
+  "agent_session_by": "opencode",
+  "capture_deep": true,
+  "allowed_actions": [
+    "tool:build_command_run",
+    "tool:web_walkthrough_record"
+  ],
+  "last_reply": "I reviewed the capture evidence for the required routes and fixed `app/build.mjs` so footers now use `/privacy`, `/terms`, and `/shop-terms`, the login “Create your storefront →” and “Join here” links point to `/onboard` and `/join`, and home cards/menu/shop rows link to individual `/{slug}` shop URLs as shown in the captures (category browse tiles still point to `/c/...`).\nAfter `npm install` and `npm run build` in `app/`, the site generates the required static pages in `app/dist` for `/`, `/login`, `/c/grocery`, `/c/homefood`, and `/c/rest`.\n`rebuild_check` reports the build would pass overall at ~99% likeness for the required pages/widths (including the required opened menu states being triggered), with menu-state visual similarity lower at 1440px (~80–81%) and 390px (~62–65%).\nI could not view `capture/*.png` or `capture/states*/*.png` in this session, so any remaining menu-state visual differences below exact parity could not be verified or adjusted from screenshots beyond the JSON/HTML/outline evidence and the checker’s output. No original protected logos, photos, brand names, or long copy were replaced outside what the existing local rebuild assets already provide.",
+  "asset_budget_usd": 5.0,
+  "generate_assets": false,
+  "questions": "decide"
+}
